@@ -37,7 +37,9 @@ The script was developed and tested with the following packages:
 - **numpy** (v1.21.2): For numerical computations.  
 - **openpyxl** (v3.0.9): For writing Excel files.
 
-To install the required packages, run:
+Do Pip install for the required packages and run the code:
 
 ```bash
 pip install pydicom==2.3.0 pandas==1.3.5 numpy==1.21.2 openpyxl==3.0.9
+python extract_dicom_metadata.py
+
